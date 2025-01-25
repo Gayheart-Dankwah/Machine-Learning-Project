@@ -5,19 +5,19 @@ This Project aims to develop a machine learning model that predicts food Securit
 # Dataset
 I used a Food Security Dataset that was collected to conduct a study and understand households living in two urban informal settlements of Nairobi, their food security status and related determinants in 2014. The dataset includes the variables listed below:
 
-ID	-        Identification number of the household,
-site	-      Site of the study,
-hhedu	-      Household head level of education,
-hhage	-    Household head age,
-hhhsex	-  Sex of household head,
-hhethnic-	  Ethnicity of household head,
-hhsize-	    Size of household,
-u05 -	      Number of people aged under-5,
-povline	-   Whether a household is below the poverty line, yes or no,
-windex3 -	  Wealth tertile of household,
-windex5 -	  Wealth quintile of household,
-FS_score -	Food security score (continuous),
-FS	-       Food security status
+* ID	- Identification number of the household,
+* site	-      Site of the study,
+* hhedu	- Household head level of education,
+* hhage	-    Household head age,
+* hhhsex	-  Sex of household head,
+* hhethnic-	  Ethnicity of household head,
+* hhsize-	    Size of household,
+* u05 -	      Number of people aged under-5,
+* povline	-   Whether a household is below the poverty line, yes or no,
+* windex3 -	  Wealth tertile of household,
+* windex5 -	  Wealth quintile of household,
+* FS_score -	Food security score (continuous),
+* FS	-       Food security status
 # Methodology
 I used a Random Forest Classifier to predict food security status. I tuned hyperparameters using GridSearchCV
 # Results
@@ -30,13 +30,11 @@ to make everything easier, download and install Anaconda from the official Anaco
 open Jupyter notebook
 # Contributing
 I welcome contributions to this project! if you would like to submit an issue or pull request, please follow these guidelines:
-
-1. Submit issue using github issue tracker
-2. Submit pull request with a clear description of the changes
-# Limitations
-1. The dataset was not enough to ensure a high model performance. More data being added or change of algorithm could increase the performance
-2. The dataset used is limited to a specific region and may not be generalizable to other areas
-3. The model relies on a limited set of features and may not capture all relevant factor influencing food security.
+* Submit issue using github issue tracker
+* Submit pull request with a clear description of the changes
+# Limitation
+* The dataset used is limited to a specific region and may not be generalizable to other areas
+*  The model relies on a limited set of features and may not capture all relevant factor influencing food security.
 
 #
 
