@@ -25,7 +25,7 @@ My model achieved an accuracy score of 51% on the test set. I also interestingly
 Households with primary and Secondary Level education had high food security.
 # Usage
 To use this project you will need to install the following dependencies:
-'Python 3', pandas, sklearn, numpy, seaborn, matplotlib
+'Python 3', pandas, sklearn, numpy, seaborn, matplotlib. Also
 to make everything easier, download and install Anaconda from the official Anaconda website.
 open Jupyter notebook
 # Contributing
