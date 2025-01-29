@@ -1,6 +1,7 @@
 # Machine-Learning-Project
 # PROJECT OVERVIEW
 # Food Security Status Prediction
+![Food Security](blog-food-security2.png)
 This Project aims to develop a machine learning model that predicts food Security Status among households living in two urban informal settlements of Nairobi, Kenya.
 # Dataset
 I used a Food Security Dataset that was collected to conduct a study and understand households living in two urban informal settlements of Nairobi, their food security status and related determinants in 2014. The dataset includes the variables listed below:
